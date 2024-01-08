@@ -19,6 +19,7 @@ router.get('/', (req, res)=>{
 //Ruta para crear registros
 router.get('/create', (req, res)=>{
     res.render('create');
+    //res.send('create');
 })
 
 //Ruta para editar registros
