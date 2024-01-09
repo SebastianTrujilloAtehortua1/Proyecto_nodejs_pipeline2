@@ -9,7 +9,7 @@ pipeline{
         stage('install'){
             steps{
                 git branch: 'main', url: 'https://github.com/SebastianTrujilloAtehortua1/Proyectos_nodejs.git'
-                dir('p1'){
+                dir('./'){
                     sh 'npm install'
                 }
             }           
